@@ -1,0 +1,99 @@
+#container {
+    border: solid;
+    width: 50%;
+    min-width: 500px;
+    background-color: gainsboro;
+    margin: auto;
+}
+
+#paneInvest {
+    visibility: hidden;
+    height: 300%;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    background: #000000b5;
+}
+
+#divUnderView {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 16%;
+    width: 550px;
+    height: 450px;
+    background-color: snow;
+}
+
+#idButton {
+    margin-left: 60%;
+    margin-top: -9%;
+}
+
+input {
+    width: 211px;
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.item_divs {
+    margin: 5%;
+    background-color: snow;
+    border: solid 1px;
+    border-color: darkgray;
+}
+
+body {
+    margin: 5%;
+    background-color: black;
+}
+
+#content {
+    min-height: 500px;
+}
+
+#bottom {
+    text-align: center;
+    margin: 5%;
+}
+
+h2 {
+    margin: 5%;
+    font-size: xxx-large;
+    color: initial;
+
+}
+
+h3 {
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    font-size: xx-large;
+}
+
+span {
+    margin: 2%;
+}
+
+button {
+    width: 180px;
+    height: 50px;
+    margin-left: 73%;
+    margin-bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gold;
+    border-color: darkkhaki;
+    border-radius: 4px;
+}
+
+.pStyle {
+    margin: 2%;
+}
+
+#hiddenInputSize {
+    height: 0px;
+    width: 0px;
+}
