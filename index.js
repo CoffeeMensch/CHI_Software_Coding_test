@@ -113,7 +113,7 @@ function investMountIncreesing() {
         data.push(savedData);
 
         let pre = document.querySelector('#msg pre');
-        pre.textContent = '\n' + JSON.stringify(movies, '\t', 2);
+        pre.textContent = '\n' + JSON.stringify(savedData, '\t', 2);
         localStorage.setItem('MyMovieList', JSON.stringify(data));
 
     }
